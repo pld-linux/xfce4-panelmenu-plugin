@@ -10,8 +10,8 @@ Source0:	http://download.berlios.de/xfce4panelmenu/%{name}-%{version}.tar.gz
 URL:		https://developer.berlios.de/projects/xfce4panelmenu/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	xfce4-panel-devel >= 4.2.0
 BuildRequires:	libxfce4mcs-devel >= 4.2.0
+BuildRequires:	xfce4-panel-devel >= 4.2.0
 Requires:	xfce4-panel >= 4.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -21,7 +21,7 @@ similar to this at WinXP.
 
 %description -l pl
 xfce4-panelmenu-plugin jest wtyczk± dla panelu Xfce, która dostarcza
-menu podobne do tego z WinXP. 
+menu podobne do tego z WinXP.
 
 %prep
 %setup -q -n xfce4-panel-menu-plugin-%{version}
@@ -46,6 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README
-
 %attr(755,root,root) %{_libdir}/xfce4/panel-plugins/*.so
 %{_datadir}/xfce4/menustart/*
