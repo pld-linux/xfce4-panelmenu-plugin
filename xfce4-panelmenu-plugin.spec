@@ -2,15 +2,16 @@
 Summary:	WinXP like menu for Xfce4-panel
 Summary(pl):	Menu dla Xfce4 w stylu WinXP
 Name:		xfce4-panelmenu-plugin
-Version:	0.2.0
+Version:	0.2.1
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://download.berlios.de/xfce4panelmenu/%{_src_name}-%{version}.tar.gz
-# Source0-md5:	203491397e5e060b2ed1258952a42db9
+# Source0-md5:	539e9b96780df8fbecf6bf172083ca51
 URL:		https://developer.berlios.de/projects/xfce4panelmenu/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	dbh-devel >= 1.0
 BuildRequires:	libxfce4mcs-devel >= 4.2.0
 BuildRequires:	xfce4-panel-devel >= 4.2.0
 Requires:	xfce4-panel >= 4.2.0
