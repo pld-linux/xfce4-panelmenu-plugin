@@ -1,6 +1,6 @@
 %define		_src_name	xfce4-panel-menu-plugin
 Summary:	WinXP like menu for Xfce4-panel
-Summary(pl.UTF-8):   Menu dla Xfce4 w stylu WinXP
+Summary(pl.UTF-8):	Menu dla Xfce4 w stylu WinXP
 Name:		xfce4-panelmenu-plugin
 Version:	0.3.1
 Release:	1
